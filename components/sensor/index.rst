@@ -262,8 +262,7 @@ degree with a least squares solver.
 ``clamp``
 *********
 
-Limits the value to the range between ``min_value`` and ``max_value``. If ``min_value`` is not set, there is
-no lower bound, if ``max_value`` is not set there is no upper bound.
+Limits the value to the range between ``min_value`` and ``max_value``. A sensor value less than ``min_value`` will be set to ``min_value``, a sensor values higher than ``max_value`` will be set to ``max_value``. If ``min_value`` is not set, there is no lower bound, if ``max_value`` is not set there is no upper bound.
 
 Configuration variables:
 
